@@ -1,0 +1,21 @@
+{
+  "name": "teemu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd socialraw && npm install && cd ../edensound && npm install @tailwindcss/forms && npm install && npm run build",
+    "start": "node socialraw/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnasBeast/edensound-pr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnasBeast/edensound-pr/issues"
+  },
+  "homepage": "https://github.com/AnasBeast/edensound-pr#readme"
+}
