@@ -48,7 +48,7 @@ var admin = require("./modules/admin");
 admin.init(app, express);
 const path = require("path");
 app.use(express.static(path.join(__dirname, '../edensound/build')));
-app.get('*',(req, res)=>res.sendFile(
+app.get('/',(req, res)=>res.sendFile(
   path.join(__dirname, '../edensound/build/index.html'),
   function (err){
     if(err){
